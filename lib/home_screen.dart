@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 30,
+                    height: 40,
                   ),
                   Text(ttList[idx].date),
                   const SizedBox(
