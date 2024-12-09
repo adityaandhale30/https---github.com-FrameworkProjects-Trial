@@ -2,7 +2,6 @@ class TimetableModel {
   String subjectName;
   String date;
   String time;
-  int id = 0;
 
   TimetableModel({required this.date, required this.subjectName,required this.time});
 
