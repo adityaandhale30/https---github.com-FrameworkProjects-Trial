@@ -4,6 +4,7 @@ class TimetableModel {
   String time;
   
 
+
   TimetableModel({required this.date, required this.subjectName,required this.time});
 
   Map<String, dynamic> timeMap() {
