@@ -44,6 +44,7 @@ class _CandyCrushGameState extends State<CandyCrushGame> {
 
   void _swapCandies(int row1, int col1, int row2, int col2) {
     setState(() {
+      
       final temp = grid[row1][col1];
       grid[row1][col1] = grid[row2][col2];
       grid[row2][col2] = temp;
