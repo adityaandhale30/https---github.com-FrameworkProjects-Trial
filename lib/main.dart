@@ -44,7 +44,7 @@ class _CandyCrushGameState extends State<CandyCrushGame> {
 
   void _swapCandies(int row1, int col1, int row2, int col2) {
     setState(() {
-      
+
       final temp = grid[row1][col1];
       grid[row1][col1] = grid[row2][col2];
       grid[row2][col2] = temp;
@@ -58,6 +58,7 @@ class _CandyCrushGameState extends State<CandyCrushGame> {
     // Check for horizontal matches
     for (int row = 0; row < gridSize; row++) {
       for (int col = 0; col < gridSize - 2; col++) {
+        
         if (grid[row][col] == grid[row][col + 1] && grid[row][col] == grid[row][col + 2]) {
           matched[row][col] = matched[row][col + 1] = matched[row][col + 2] = true;
         }
