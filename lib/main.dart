@@ -59,6 +59,7 @@ class _CandyCrushGameState extends State<CandyCrushGame> {
     for (int row = 0; row < gridSize; row++) {
       for (int col = 0; col < gridSize - 2; col++) {
         
+        
         if (grid[row][col] == grid[row][col + 1] && grid[row][col] == grid[row][col + 2]) {
           matched[row][col] = matched[row][col + 1] = matched[row][col + 2] = true;
         }
