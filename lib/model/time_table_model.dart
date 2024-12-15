@@ -9,6 +9,7 @@ class TimetableModel {
 
   Map<String, dynamic> timeMap() {
     return {
+      
       'subjectName':subjectName,
       'date': date,
       'time': time,
